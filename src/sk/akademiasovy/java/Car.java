@@ -68,7 +68,7 @@ public class Car {
         this.gasConsumption=gasConsumption;
     }
     public void printInfo(){
-        System.out.println("Brand:"+brand+" Consumption:"+gasConsumption+" Actual speed:"+speed+" Engine:"+engine);
+        System.out.println("Brand:"+brand+" Consumption:"+gasConsumption+" Actual speed:"+speed+" Engine:"+engine+ " " +plate);
     }
     public void startEngine(){
         engine=true;
@@ -101,6 +101,9 @@ public class Car {
 
     public int getSpeed(){
         return speed;
+    }
+    public String getPlate(){
+        return plate;
     }
 
     public void turnOnFrontWiper(){
